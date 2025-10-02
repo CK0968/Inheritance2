@@ -1,0 +1,9 @@
+package activity1;
+
+class Person {
+    String name;
+
+    Person(String name) {
+        this.name = name;
+    }
+}

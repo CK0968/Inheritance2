@@ -1,0 +1,15 @@
+package activity2;
+
+class Clothing extends Product {
+    double discount;
+
+    Clothing(String name, double price, double discount) {
+        super(name, price);
+        this.discount = discount;
+    }
+
+    @Override
+    double calculatePrice() {
+        return price - discount;
+    }
+}
